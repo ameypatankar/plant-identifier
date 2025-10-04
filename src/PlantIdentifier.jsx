@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Upload, Leaf, Info, Droplets, Sun, ThermometerSun, Sprout, Camera, X, Loader2 } from 'lucide-react';
+import { Leaf, Info, Droplets, Sun, ThermometerSun, Sprout, Camera, X, Loader2 } from 'lucide-react';
 
 export default function PlantIdentifier() {
   const [selectedImage, setSelectedImage] = useState(null);
